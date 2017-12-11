@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<configuration>
+		<feature automatic="undefined" manual="undefined" name="Assignment5"/>
+		<feature automatic="undefined" manual="undefined" name="Base"/>
+		<feature automatic="undefined" manual="undefined" name="Snapshot"/>
+		<feature automatic="undefined" manual="undefined" name="Bulk"/>
+		<feature automatic="undefined" manual="undefined" name="Suggest"/>
+		<feature automatic="undefined" manual="undefined" name="Index"/>
+		<feature automatic="undefined" manual="undefined" name="CreateIndex"/>
+		<feature automatic="undefined" manual="undefined" name="DeleteIndex"/>
+		<feature automatic="undefined" manual="undefined" name="OpenIndex"/>
+		<feature automatic="undefined" manual="undefined" name="CloseIndex"/>
+		<feature automatic="undefined" manual="undefined" name="Template"/>
+		<feature automatic="undefined" manual="undefined" name="DeleteTemplate"/>
+		<feature automatic="undefined" manual="undefined" name="GetTemplate"/>
+		<feature automatic="undefined" manual="undefined" name="PutTemplate"/>
+	</configuration>

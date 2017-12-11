@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel>
+		<properties/>
+		<struct>
+			<and abstract="true" mandatory="true" name="Assignment5">
+				<and name="Base">
+					<feature name="Snapshot"/>
+					<feature name="Bulk"/>
+					<feature name="Suggest"/>
+					<and name="Index">
+						<feature name="CreateIndex"/>
+						<feature name="DeleteIndex"/>
+						<feature mandatory="true" name="OpenIndex"/>
+						<feature name="CloseIndex"/>
+					</and>
+					<and name="Template">
+						<feature name="DeleteTemplate"/>
+						<feature name="GetTemplate"/>
+						<feature name="PutTemplate"/>
+					</and>
+				</and>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
