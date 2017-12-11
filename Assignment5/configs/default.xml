@@ -2,7 +2,12 @@
 	<configuration>
 		<feature automatic="undefined" manual="undefined" name="Assignment5"/>
 		<feature automatic="undefined" manual="undefined" name="Base"/>
+		<feature automatic="undefined" manual="undefined" name="ServerCommunication"/>
 		<feature automatic="undefined" manual="undefined" name="Snapshot"/>
+		<feature automatic="undefined" manual="undefined" name="CreateSnapshot"/>
+		<feature automatic="undefined" manual="undefined" name="DeleteSnapshot"/>
+		<feature automatic="undefined" manual="undefined" name="GetSnapshot"/>
+		<feature automatic="undefined" manual="undefined" name="RestoreSnapshot"/>
 		<feature automatic="undefined" manual="undefined" name="Bulk"/>
 		<feature automatic="undefined" manual="undefined" name="Suggest"/>
 		<feature automatic="undefined" manual="undefined" name="Index"/>
@@ -14,4 +19,6 @@
 		<feature automatic="undefined" manual="undefined" name="DeleteTemplate"/>
 		<feature automatic="undefined" manual="undefined" name="GetTemplate"/>
 		<feature automatic="undefined" manual="undefined" name="PutTemplate"/>
+		<feature automatic="undefined" manual="undefined" name="Configuration"/>
+		<feature automatic="undefined" manual="undefined" name="UI"/>
 	</configuration>

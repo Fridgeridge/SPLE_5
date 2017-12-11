@@ -4,20 +4,29 @@
 		<struct>
 			<and abstract="true" mandatory="true" name="Assignment5">
 				<and name="Base">
-					<feature name="Snapshot"/>
-					<feature name="Bulk"/>
-					<feature name="Suggest"/>
-					<and name="Index">
-						<feature name="CreateIndex"/>
-						<feature name="DeleteIndex"/>
-						<feature mandatory="true" name="OpenIndex"/>
-						<feature name="CloseIndex"/>
+					<and name="ServerCommunication">
+						<and name="Snapshot">
+							<feature name="CreateSnapshot"/>
+							<feature name="DeleteSnapshot"/>
+							<feature name="GetSnapshot"/>
+							<feature name="RestoreSnapshot"/>
+						</and>
+						<feature name="Bulk"/>
+						<feature name="Suggest"/>
+						<and name="Index">
+							<feature name="CreateIndex"/>
+							<feature name="DeleteIndex"/>
+							<feature name="OpenIndex"/>
+							<feature name="CloseIndex"/>
+						</and>
+						<and name="Template">
+							<feature name="DeleteTemplate"/>
+							<feature name="GetTemplate"/>
+							<feature name="PutTemplate"/>
+						</and>
+						<feature mandatory="true" name="Configuration"/>
 					</and>
-					<and name="Template">
-						<feature name="DeleteTemplate"/>
-						<feature name="GetTemplate"/>
-						<feature name="PutTemplate"/>
-					</and>
+					<feature name="UI"/>
 				</and>
 			</and>
 		</struct>
