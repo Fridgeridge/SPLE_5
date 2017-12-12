@@ -13,7 +13,7 @@
 						</and>
 						<feature name="Bulk"/>
 						<feature name="Suggest"/>
-						<and name="Index">
+						<and mandatory="true" name="Index">
 							<feature name="CreateIndex"/>
 							<feature name="DeleteIndex"/>
 							<feature name="OpenIndex"/>
