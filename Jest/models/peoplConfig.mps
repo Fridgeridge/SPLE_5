@@ -6633,6 +6633,13 @@
       <property role="3_QSL4" value="15216640" />
       <property role="TrG5h" value="SnapshotHandling" />
     </node>
+    <node concept="1V77HM" id="2Ww9bxrCfpn" role="288GmO">
+      <property role="2_7ToJ" value="27" />
+      <property role="2_7ToH" value="68" />
+      <property role="2_7Toi" value="0" />
+      <property role="3_QSL4" value="1786880" />
+      <property role="TrG5h" value="IndexHandling" />
+    </node>
     <node concept="2$Fqj1" id="7nDaBAKyLlL" role="lGtFl">
       <node concept="1V74G3" id="7nDaBAKyLn2" role="2$Fqj6">
         <property role="TrG5h" value="VP_8496368874152465858" />
