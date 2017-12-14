@@ -15,7 +15,8 @@
 /build/resources/help/
 /build/resources/JDK/
 classes
-classes_gen
+sources_gen/
+classes_gen/
 .mps
 testclasses
 *.iws
