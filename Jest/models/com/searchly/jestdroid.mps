@@ -1819,8 +1819,8 @@
               <property role="TrG5h" value="Fragment_8496368874152623275" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKznMH" resolve="VPToFragment_8496368874152623277" />
               <ref role="25GeQm" node="7nDaBAKznMJ" resolve="PeoplBlockReference_8496368874152623279" />
-              <ref role="a64iB" to="x0nt:1WBg84S3xhK" resolve="Test" />
-              <ref role="3aRQVk" to="x0nt:1WBg84S3z4y" resolve="ModuleToFragment_2244833863002894626" />
+              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
+              <ref role="3aRQVk" to="x0nt:1WBg84Sx17W" resolve="ModuleToFragment_2244833863010619900" />
             </node>
           </node>
         </node>
