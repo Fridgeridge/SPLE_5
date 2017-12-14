@@ -37,10 +37,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
-      </concept>
     </language>
     <language id="1a3a0b62-fb00-47d1-8423-98da4001b216" name="de.htwsaar.peopl.core">
       <concept id="7049226118380955944" name="de.htwsaar.peopl.core.structure.IColor" flags="ng" index="6kOzA">
@@ -80,7 +76,6 @@
       <concept id="675154290793708653" name="de.htwsaar.peopl.core.moduleConfig.structure.SingleModuleConfiguration" flags="ng" index="u25OH">
         <child id="5543868949657202866" name="moduleExpression" index="2Hjnvt" />
       </concept>
-      <concept id="675154290793743898" name="de.htwsaar.peopl.core.moduleConfig.structure.Addition" flags="ng" index="u2itq" />
       <concept id="675154290793743904" name="de.htwsaar.peopl.core.moduleConfig.structure.ModuleConnector" flags="ng" index="u2itw">
         <reference id="675154290793743905" name="connectedModule" index="u2itx" />
       </concept>
@@ -1270,6 +1265,10 @@
       <node concept="3aRQSP" id="7nDaBAKz9oe" role="3aRQVq">
         <property role="TrG5h" value="ModuleToFragment_8496368874152564238" />
         <ref role="3aRQSO" to="fcgr:7nDaBAKz9ob" resolve="Fragment_8496368874152564235" />
+      </node>
+      <node concept="3aRQSP" id="7nDaBAKz9om" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_8496368874152564246" />
+        <ref role="3aRQSO" to="fcgr:7nDaBAKz9oj" resolve="Fragment_8496368874152564243" />
       </node>
       <node concept="3aRQSP" id="7nDaBAKz9ou" role="3aRQVq">
         <property role="TrG5h" value="ModuleToFragment_8496368874152564254" />
@@ -3419,6 +3418,10 @@
         <property role="TrG5h" value="ModuleToFragment_8496368874152623270" />
         <ref role="3aRQSO" to="5hth:7nDaBAKznMx" resolve="Fragment_8496368874152623265" />
       </node>
+      <node concept="3aRQSP" id="7nDaBAKznMI" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_8496368874152623278" />
+        <ref role="3aRQSO" to="5hth:7nDaBAKznMF" resolve="Fragment_8496368874152623275" />
+      </node>
       <node concept="3aRQSP" id="7nDaBAKznMQ" role="3aRQVq">
         <property role="TrG5h" value="ModuleToFragment_8496368874152623286" />
         <ref role="3aRQSO" to="5hth:7nDaBAKznMN" resolve="Fragment_8496368874152623283" />
@@ -4665,10 +4668,6 @@
       </node>
       <node concept="3aRQSP" id="7$LNc7rlyvT" role="3aRQVq">
         <property role="TrG5h" value="ModuleToFragment_8732986285428713465" />
-        <ref role="3aRQSO" to="bcdp:7$LNc7rlyvP" resolve="Fragment_8732986285428713461" />
-      </node>
-      <node concept="3aRQSP" id="7$LNc7rlyvW" role="3aRQVq">
-        <property role="TrG5h" value="ModuleToFragment_8732986285428713468" />
         <ref role="3aRQSO" to="bcdp:7$LNc7rlyvP" resolve="Fragment_8732986285428713461" />
       </node>
       <node concept="3aRQSP" id="7$LNc7rlyw3" role="3aRQVq">
@@ -6599,20 +6598,24 @@
         <property role="TrG5h" value="ModuleToFragment_8732986285428811139" />
         <ref role="3aRQSO" to="vinn:7$LNc7rlyYT" resolve="Fragment_8732986285428715449" />
       </node>
-    </node>
-    <node concept="1V77HM" id="1WBg84S3xhK" role="288GmO">
-      <property role="2_7ToJ" value="188" />
-      <property role="2_7ToH" value="35" />
-      <property role="2_7Toi" value="255" />
-      <property role="3_QSL4" value="12329983" />
-      <property role="TrG5h" value="Test" />
-      <node concept="3aRQSP" id="1WBg84S3z4y" role="3aRQVq">
-        <property role="TrG5h" value="ModuleToFragment_2244833863002894626" />
-        <ref role="3aRQSO" to="5hth:7nDaBAKznMF" resolve="Fragment_8496368874152623275" />
+      <node concept="3aRQSP" id="2WPQaxwWhqX" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_3401863311240795837" />
+        <ref role="3aRQSO" to="bcdp:2WPQaxwWhqU" resolve="Fragment_3401863311240795834" />
       </node>
-      <node concept="3aRQSP" id="1WBg84S4PKJ" role="3aRQVq">
-        <property role="TrG5h" value="ModuleToFragment_2244833863003233327" />
-        <ref role="3aRQSO" to="fcgr:7nDaBAKz9oj" resolve="Fragment_8496368874152564243" />
+    </node>
+    <node concept="1V77HM" id="2WPQaxwW8hm" role="288GmO">
+      <property role="2_7ToJ" value="121" />
+      <property role="2_7ToH" value="120" />
+      <property role="2_7Toi" value="104" />
+      <property role="3_QSL4" value="7960680" />
+      <property role="TrG5h" value="Analyze" />
+      <node concept="3aRQSP" id="2WPQaxwW8M4" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_3401863311240760452" />
+        <ref role="3aRQSO" to="bcdp:2WPQaxwW7jP" resolve="Fragment_3401863311240754421" />
+      </node>
+      <node concept="3aRQSP" id="2WPQaxwWjA5" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_3401863311240804741" />
+        <ref role="3aRQSO" to="bcdp:7$LNc7rlyvP" resolve="Fragment_8732986285428713461" />
       </node>
     </node>
     <node concept="2$Fqj1" id="7nDaBAKyLlL" role="lGtFl">
@@ -15219,6 +15222,27 @@
           <ref role="1V74G_" to="5hth:7$LNc7rlz2K" resolve="Fragment_8732986285428715696" />
         </node>
       </node>
+      <node concept="1V74G3" id="2WPQaxwW7jQ" role="2$Fqj6">
+        <property role="TrG5h" value="VP_3401863311240754422" />
+        <node concept="1V74G$" id="2WPQaxwW7jR" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_3401863311240754423" />
+          <ref role="1V74G_" to="bcdp:2WPQaxwW7jP" resolve="Fragment_3401863311240754421" />
+        </node>
+      </node>
+      <node concept="1V74G3" id="2WPQaxwWhqV" role="2$Fqj6">
+        <property role="TrG5h" value="VP_3401863311240795835" />
+        <node concept="1V74G$" id="2WPQaxwWhqW" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_3401863311240795836" />
+          <ref role="1V74G_" to="bcdp:2WPQaxwWhqU" resolve="Fragment_3401863311240795834" />
+        </node>
+      </node>
+      <node concept="1V74G3" id="2WPQaxwWhr3" role="2$Fqj6">
+        <property role="TrG5h" value="VP_3401863311240795843" />
+        <node concept="1V74G$" id="2WPQaxwWhr4" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_3401863311240795844" />
+          <ref role="1V74G_" to="bcdp:2WPQaxwWhr2" resolve="Fragment_3401863311240795842" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="2M0niJ" id="7nDaBAKyLlN">
@@ -15226,13 +15250,8 @@
     <ref role="2M0niE" node="7nDaBAKyLlO" />
     <node concept="u25OH" id="7nDaBAKyLlO" role="2M0niC">
       <node concept="2Hijyl" id="7nDaBAKyLlP" role="2Hjnvt">
-        <node concept="u2itq" id="1WBg84S3z$A" role="3clFbG">
-          <node concept="u2itw" id="1WBg84S3z$H" role="3uHU7w">
-            <ref role="u2itx" node="1WBg84S3xhK" resolve="Test" />
-          </node>
-          <node concept="u2itw" id="7nDaBAKyLlQ" role="3uHU7B">
-            <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
-          </node>
+        <node concept="u2itw" id="7nDaBAKyLlQ" role="3clFbG">
+          <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
         </node>
       </node>
     </node>
