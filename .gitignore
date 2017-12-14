@@ -43,3 +43,4 @@ teamcity-info.xml
 /bin/win
 /build/dependencies
 /build/resources/mps
+.DS_Store
