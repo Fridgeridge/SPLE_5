@@ -16,6 +16,7 @@
 /build/resources/JDK/
 classes
 classes_gen
+.mps
 testclasses
 *.iws
 teamcity-info.xml
