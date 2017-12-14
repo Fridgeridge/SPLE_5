@@ -6420,9 +6420,9 @@
               <property role="32Xqk$" value="chosenModule" />
               <property role="TrG5h" value="Fragment_8496368874152564243" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKz9ol" resolve="VPToFragment_8496368874152564245" />
-              <ref role="3aRQVk" to="x0nt:7nDaBAKz9om" resolve="ModuleToFragment_8496368874152564246" />
-              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
               <ref role="25GeQm" node="7nDaBAKz9on" resolve="PeoplBlockReference_8496368874152564247" />
+              <ref role="a64iB" to="x0nt:1WBg84S3xhK" resolve="Test" />
+              <ref role="3aRQVk" to="x0nt:1WBg84S4PKJ" resolve="ModuleToFragment_2244833863003233327" />
             </node>
           </node>
         </node>
