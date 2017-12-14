@@ -2,8 +2,8 @@
 <model ref="r:cb4e30dd-584a-40ec-8a59-8a7b1c91a0d3(peoplConfig)">
   <persistence version="9" />
   <languages>
-    <use id="1a3a0b62-fb00-47d1-8423-98da4001b216" name="de.htwsaar.peopl.core" version="0" />
-    <use id="42727bc4-0771-4379-872f-090530265ce4" name="de.htwsaar.peopl.core.moduleConfig" version="0" />
+    <use id="1a3a0b62-fb00-47d1-8423-98da4001b216" name="de.htwsaar.peopl.core" version="-1" />
+    <use id="42727bc4-0771-4379-872f-090530265ce4" name="de.htwsaar.peopl.core.moduleConfig" version="-1" />
   </languages>
   <imports>
     <import index="npds" ref="r:e8186638-d3aa-400d-8920-fe9c32aa1be9(io.searchbox.core)" />
@@ -6632,6 +6632,13 @@
         <property role="TrG5h" value="ModuleToFragment_2244833863011968702" />
         <ref role="3aRQSO" to="ha10:7$LNc7rlyBl" resolve="Fragment_8732986285428713941" />
       </node>
+    </node>
+    <node concept="1V77HM" id="2Ww9bxrCfpn" role="288GmO">
+      <property role="2_7ToJ" value="27" />
+      <property role="2_7ToH" value="68" />
+      <property role="2_7Toi" value="0" />
+      <property role="3_QSL4" value="1786880" />
+      <property role="TrG5h" value="IndexHandling" />
     </node>
     <node concept="2$Fqj1" id="7nDaBAKyLlL" role="lGtFl">
       <node concept="1V74G3" id="7nDaBAKyLn2" role="2$Fqj6">
