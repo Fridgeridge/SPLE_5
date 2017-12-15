@@ -45,3 +45,5 @@ Jest/bin/win
 Jest/build/dependencies
 Jest/build/resources/mps
 Jest/.DS_Store
+.DS_Store
+.mps
