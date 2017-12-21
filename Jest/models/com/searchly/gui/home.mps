@@ -4,6 +4,7 @@
   <languages>
     <use id="fe78a547-334d-4401-802e-373d6ba57db0" name="de.htwsaar.peopl.baseLanguageExtension" version="0" />
     <use id="1a3a0b62-fb00-47d1-8423-98da4001b216" name="de.htwsaar.peopl.core" version="0" />
+    <use id="42727bc4-0771-4379-872f-090530265ce4" name="de.htwsaar.peopl.core.moduleConfig" version="0" />
   </languages>
   <imports>
     <import index="x0nt" ref="r:cb4e30dd-584a-40ec-8a59-8a7b1c91a0d3(peoplConfig)" />
@@ -97,6 +98,11 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="42727bc4-0771-4379-872f-090530265ce4" name="de.htwsaar.peopl.core.moduleConfig">
+      <concept id="8595675693488599338" name="de.htwsaar.peopl.core.moduleConfig.structure.ConfigurationLink" flags="ng" index="H$gyE">
+        <reference id="8595675693488599339" name="productLineConfigurations" index="H$gyF" />
       </concept>
     </language>
   </registry>
@@ -212,6 +218,10 @@
         <ref role="3uigEE" to="dxuu:~JFrame" resolve="JFrame" />
       </node>
     </node>
+  </node>
+  <node concept="H$gyE" id="NQVgKDO1Yl">
+    <property role="TrG5h" value="ConfigurationLink" />
+    <ref role="H$gyF" to="x0nt:7nDaBAKyLlN" resolve="Jest" />
   </node>
 </model>
 
