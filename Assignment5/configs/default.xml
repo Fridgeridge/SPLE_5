@@ -3,7 +3,7 @@
 		<feature automatic="undefined" manual="undefined" name="Assignment5"/>
 		<feature automatic="undefined" manual="undefined" name="Base"/>
 		<feature automatic="undefined" manual="undefined" name="ServerCommunication"/>
-		<feature automatic="undefined" manual="undefined" name="Snapshot"/>
+		<feature automatic="undefined" manual="undefined" name="SnapshotHandling"/>
 		<feature automatic="undefined" manual="undefined" name="CreateSnapshot"/>
 		<feature automatic="undefined" manual="undefined" name="DeleteSnapshot"/>
 		<feature automatic="undefined" manual="undefined" name="GetSnapshot"/>
@@ -11,10 +11,18 @@
 		<feature automatic="undefined" manual="undefined" name="Bulk"/>
 		<feature automatic="undefined" manual="undefined" name="Index"/>
 		<feature automatic="undefined" manual="undefined" name="CreateIndex"/>
-		<feature automatic="undefined" manual="undefined" name="DeleteIndex"/>
-		<feature automatic="undefined" manual="undefined" name="OpenIndex"/>
-		<feature automatic="undefined" manual="undefined" name="CloseIndex"/>
-		<feature automatic="undefined" manual="undefined" name="Configuration"/>
+		<feature automatic="undefined" manual="undefined" name="IndexMapping"/>
+		<feature automatic="undefined" manual="undefined" name="Documents"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentIndex"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentIndexJSON"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentIndexJSONBuilder"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentIndexMap"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentIndexPOJO"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentSearch"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentGet"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentUpdate"/>
+		<feature automatic="undefined" manual="undefined" name="DocumentDelete"/>
+		<feature automatic="undefined" manual="undefined" name="AsyncExecution"/>
 		<feature automatic="undefined" manual="undefined" name="UI"/>
 		<feature automatic="undefined" manual="undefined" name="Authentication"/>
 	</configuration>

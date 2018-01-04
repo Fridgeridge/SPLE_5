@@ -3,24 +3,34 @@
 		<properties/>
 		<struct>
 			<and abstract="true" mandatory="true" name="Assignment5">
-				<and name="Base">
-					<and name="ServerCommunication">
-						<and name="Snapshot">
+				<and mandatory="true" name="Base">
+					<and mandatory="true" name="ServerCommunication">
+						<or name="SnapshotHandling">
 							<feature name="CreateSnapshot"/>
 							<feature name="DeleteSnapshot"/>
 							<feature name="GetSnapshot"/>
 							<feature name="RestoreSnapshot"/>
-						</and>
+						</or>
 						<feature name="Bulk"/>
-						<and mandatory="true" name="Index">
+						<or mandatory="true" name="Index">
 							<feature name="CreateIndex"/>
-							<feature name="DeleteIndex"/>
-							<feature name="OpenIndex"/>
-							<feature name="CloseIndex"/>
-						</and>
-						<feature mandatory="true" name="Configuration"/>
+							<feature name="IndexMapping"/>
+						</or>
+						<or name="Documents">
+							<or name="DocumentIndex">
+								<feature name="DocumentIndexJSON"/>
+								<feature name="DocumentIndexJSONBuilder"/>
+								<feature name="DocumentIndexMap"/>
+								<feature name="DocumentIndexPOJO"/>
+							</or>
+							<feature name="DocumentSearch"/>
+							<feature name="DocumentGet"/>
+							<feature name="DocumentUpdate"/>
+							<feature name="DocumentDelete"/>
+						</or>
+						<feature name="AsyncExecution"/>
 					</and>
-					<feature name="UI"/>
+					<feature mandatory="true" name="UI"/>
 					<feature name="Authentication"/>
 				</and>
 			</and>
