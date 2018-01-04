@@ -4,3 +4,4 @@ Jest/source_gen.caches/*
 Jest/*.msd
 
 .mps/*
+.DS_Store
