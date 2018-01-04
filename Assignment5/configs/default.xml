@@ -8,8 +8,8 @@
 		<feature automatic="undefined" manual="undefined" name="DeleteSnapshot"/>
 		<feature automatic="undefined" manual="undefined" name="GetSnapshot"/>
 		<feature automatic="undefined" manual="undefined" name="RestoreSnapshot"/>
-		<feature automatic="undefined" manual="undefined" name="Bulk"/>
-		<feature automatic="undefined" manual="undefined" name="Index"/>
+		<feature automatic="undefined" manual="undefined" name="BulkHandling"/>
+		<feature automatic="undefined" manual="undefined" name="IndexHandling"/>
 		<feature automatic="undefined" manual="undefined" name="CreateIndex"/>
 		<feature automatic="undefined" manual="undefined" name="IndexMapping"/>
 		<feature automatic="undefined" manual="undefined" name="Documents"/>

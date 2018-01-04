@@ -11,12 +11,14 @@
 							<feature name="GetSnapshot"/>
 							<feature name="RestoreSnapshot"/>
 						</or>
-						<feature name="Bulk"/>
-						<or mandatory="true" name="Index">
+						<feature name="BulkHandling"/>
+						<or mandatory="true" name="IndexHandling">
 							<feature name="CreateIndex"/>
 							<feature name="IndexMapping"/>
+							<feature name="DeleteIndex"/>
+							<feature name="CloseIndex"/>
 						</or>
-						<or name="Documents">
+						<and name="Documents">
 							<or name="DocumentIndex">
 								<feature name="DocumentIndexJSON"/>
 								<feature name="DocumentIndexJSONBuilder"/>
@@ -27,7 +29,7 @@
 							<feature name="DocumentGet"/>
 							<feature name="DocumentUpdate"/>
 							<feature name="DocumentDelete"/>
-						</or>
+						</and>
 						<feature name="AsyncExecution"/>
 					</and>
 					<feature mandatory="true" name="UI"/>
