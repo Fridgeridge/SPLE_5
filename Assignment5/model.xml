@@ -12,21 +12,16 @@
 							<feature name="RestoreSnapshot"/>
 						</and>
 						<feature name="Bulk"/>
-						<feature name="Suggest"/>
 						<and mandatory="true" name="Index">
 							<feature name="CreateIndex"/>
 							<feature name="DeleteIndex"/>
 							<feature name="OpenIndex"/>
 							<feature name="CloseIndex"/>
 						</and>
-						<and name="Template">
-							<feature name="DeleteTemplate"/>
-							<feature name="GetTemplate"/>
-							<feature name="PutTemplate"/>
-						</and>
 						<feature mandatory="true" name="Configuration"/>
 					</and>
 					<feature name="UI"/>
+					<feature name="Authentication"/>
 				</and>
 			</and>
 		</struct>
