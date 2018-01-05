@@ -12,6 +12,7 @@
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
     <import index="4sk8" ref="r:ac023eae-044c-43f6-b3ea-8cdb918ac11b(com.searchly.gui.home.search)" />
     <import index="ggus" ref="r:29cff10c-cf90-42ed-9591-00a0d6c5bf15(com.searchly.gui.home.admin)" />
+    <import index="6wzk" ref="r:38977535-9ddd-4336-a898-ae6e2643e7ed(com.searchly.gui.home.editor)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -21,6 +22,9 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -224,10 +228,49 @@
           <ref role="3aRQVk" to="x0nt:41lNXNtypR3" resolve="ModuleToFragment_4635839938964331971" />
         </node>
       </node>
+      <node concept="2tJIrI" id="41lNXNtzL7l" role="jymVt" />
+      <node concept="312cEg" id="41lNXNtzMa$" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="editorPanel" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="41lNXNtzLwl" role="1B3o_S" />
+        <node concept="3uibUv" id="41lNXNtzM4z" role="1tU5fm">
+          <ref role="3uigEE" to="6wzk:41lNXNtzIZG" resolve="EditorPanel" />
+        </node>
+        <node concept="2ShNRf" id="41lNXNtzMx5" role="33vP2m">
+          <node concept="HV5vD" id="41lNXNtzNT1" role="2ShVmc">
+            <ref role="HV5vE" to="6wzk:41lNXNtzIZG" resolve="EditorPanel" />
+          </node>
+        </node>
+        <node concept="1V74GB" id="41lNXNtzNTP" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_4635839938964700789" />
+          <ref role="1V74Hf" to="x0nt:41lNXNtzNTR" resolve="VPToFragment_4635839938964700791" />
+          <ref role="a64iB" to="x0nt:41lNXNtzJJP" resolve="EditorPanel" />
+          <ref role="3aRQVk" to="x0nt:41lNXNtzOxN" resolve="ModuleToFragment_4635839938964703347" />
+        </node>
+      </node>
+      <node concept="Wx3nA" id="41lNXNtzPpa" role="jymVt">
+        <property role="2dlcS1" value="false" />
+        <property role="2dld4O" value="false" />
+        <property role="TrG5h" value="EDITOR_PANEL_KEY" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm1VV" id="41lNXNtzOWP" role="1B3o_S" />
+        <node concept="17QB3L" id="41lNXNtzPox" role="1tU5fm" />
+        <node concept="Xl_RD" id="41lNXNtzPKn" role="33vP2m">
+          <property role="Xl_RC" value="Editor" />
+        </node>
+        <node concept="1V74GB" id="41lNXNtzPMS" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_4635839938964708536" />
+          <ref role="1V74Hf" to="x0nt:41lNXNtzPMU" resolve="VPToFragment_4635839938964708538" />
+          <ref role="a64iB" to="x0nt:41lNXNtzJJP" resolve="EditorPanel" />
+          <ref role="3aRQVk" to="x0nt:41lNXNtzQqS" resolve="ModuleToFragment_4635839938964711096" />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="41lNXNtzOyy" role="jymVt" />
       <node concept="2tJIrI" id="41lNXNtyoSw" role="jymVt" />
-      <node concept="2tJIrI" id="41lNXNtyofo" role="jymVt" />
-      <node concept="2tJIrI" id="41lNXNtynsQ" role="jymVt" />
-      <node concept="2tJIrI" id="41lNXNtynga" role="jymVt" />
       <node concept="2tJIrI" id="41lNXNsWdFs" role="jymVt" />
       <node concept="3clFbW" id="6OQFfJL9U1N" role="jymVt">
         <node concept="3cqZAl" id="6OQFfJL9U1O" role="3clF45" />
@@ -459,7 +502,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="41lNXNtytTL" role="3cqZAp" />
             </node>
             <node concept="1V74GB" id="41lNXNtytaT" role="lGtFl">
               <property role="32Xqk$" value="chosenModule" />
@@ -467,6 +509,34 @@
               <ref role="1V74Hf" to="x0nt:41lNXNtytaV" resolve="VPToFragment_4635839938964345531" />
               <ref role="a64iB" to="x0nt:41lNXNtvGFg" resolve="AdminPanel" />
               <ref role="3aRQVk" to="x0nt:41lNXNtytQE" resolve="ModuleToFragment_4635839938964348330" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="41lNXNtzR4v" role="3cqZAp" />
+          <node concept="2wexfA" id="41lNXNtzV75" role="3cqZAp">
+            <node concept="3clFbS" id="41lNXNtzV76" role="9aQI4">
+              <node concept="3clFbF" id="41lNXNtzSbW" role="3cqZAp">
+                <node concept="2OqwBi" id="41lNXNtzT9I" role="3clFbG">
+                  <node concept="37vLTw" id="41lNXNtzSbX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="41lNXNsRURV" resolve="tabs" />
+                  </node>
+                  <node concept="liA8E" id="41lNXNtzUa7" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JTabbedPane.addTab(java.lang.String,java.awt.Component):void" resolve="addTab" />
+                    <node concept="37vLTw" id="41lNXNtzW9k" role="37wK5m">
+                      <ref role="3cqZAo" node="41lNXNtzPpa" resolve="EDITOR_PANEL_KEY" />
+                    </node>
+                    <node concept="37vLTw" id="41lNXNtzV4q" role="37wK5m">
+                      <ref role="3cqZAo" node="41lNXNtzMa$" resolve="editorPanel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1V74GB" id="41lNXNtzV77" role="lGtFl">
+              <property role="32Xqk$" value="chosenModule" />
+              <property role="TrG5h" value="Fragment_4635839938964730311" />
+              <ref role="1V74Hf" to="x0nt:41lNXNtzV79" resolve="VPToFragment_4635839938964730313" />
+              <ref role="a64iB" to="x0nt:41lNXNtzJJP" resolve="EditorPanel" />
+              <ref role="3aRQVk" to="x0nt:41lNXNtzVRa" resolve="ModuleToFragment_4635839938964733386" />
             </node>
           </node>
         </node>

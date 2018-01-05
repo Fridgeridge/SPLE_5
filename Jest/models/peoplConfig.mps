@@ -35,6 +35,7 @@
     <import index="880c" ref="r:cb00d76b-efb1-41dc-93d6-f58864cb5cb3(com.searchly.gui.home)" />
     <import index="4sk8" ref="r:ac023eae-044c-43f6-b3ea-8cdb918ac11b(com.searchly.gui.home.search)" />
     <import index="ggus" ref="r:29cff10c-cf90-42ed-9591-00a0d6c5bf15(com.searchly.gui.home.admin)" />
+    <import index="6wzk" ref="r:38977535-9ddd-4336-a898-ae6e2643e7ed(com.searchly.gui.home.editor)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -6878,6 +6879,29 @@
       <node concept="3aRQSP" id="41lNXNtytQE" role="3aRQVq">
         <property role="TrG5h" value="ModuleToFragment_4635839938964348330" />
         <ref role="3aRQSO" to="880c:41lNXNtytaT" resolve="Fragment_4635839938964345529" />
+      </node>
+    </node>
+    <node concept="1V77HM" id="41lNXNtzJJP" role="288GmO">
+      <property role="2_7ToJ" value="141" />
+      <property role="2_7ToH" value="133" />
+      <property role="2_7Toi" value="70" />
+      <property role="3_QSL4" value="9274694" />
+      <property role="TrG5h" value="EditorPanel" />
+      <node concept="3aRQSP" id="41lNXNtzL0X" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_4635839938964688957" />
+        <ref role="3aRQSO" to="6wzk:41lNXNtzIZI" resolve="Fragment_4635839938964680686" />
+      </node>
+      <node concept="3aRQSP" id="41lNXNtzOxN" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_4635839938964703347" />
+        <ref role="3aRQSO" to="880c:41lNXNtzNTP" resolve="Fragment_4635839938964700789" />
+      </node>
+      <node concept="3aRQSP" id="41lNXNtzQqS" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_4635839938964711096" />
+        <ref role="3aRQSO" to="880c:41lNXNtzPMS" resolve="Fragment_4635839938964708536" />
+      </node>
+      <node concept="3aRQSP" id="41lNXNtzVRa" role="3aRQVq">
+        <property role="TrG5h" value="ModuleToFragment_4635839938964733386" />
+        <ref role="3aRQSO" to="880c:41lNXNtzV77" resolve="Fragment_4635839938964730311" />
       </node>
     </node>
     <node concept="2$Fqj1" id="7nDaBAKyLlL" role="lGtFl">
@@ -15645,6 +15669,34 @@
           <ref role="1V74G_" to="880c:41lNXNtytaT" resolve="Fragment_4635839938964345529" />
         </node>
       </node>
+      <node concept="1V74G3" id="41lNXNtzIZJ" role="2$Fqj6">
+        <property role="TrG5h" value="VP_4635839938964680687" />
+        <node concept="1V74G$" id="41lNXNtzIZK" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_4635839938964680688" />
+          <ref role="1V74G_" to="6wzk:41lNXNtzIZI" resolve="Fragment_4635839938964680686" />
+        </node>
+      </node>
+      <node concept="1V74G3" id="41lNXNtzNTQ" role="2$Fqj6">
+        <property role="TrG5h" value="VP_4635839938964700790" />
+        <node concept="1V74G$" id="41lNXNtzNTR" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_4635839938964700791" />
+          <ref role="1V74G_" to="880c:41lNXNtzNTP" resolve="Fragment_4635839938964700789" />
+        </node>
+      </node>
+      <node concept="1V74G3" id="41lNXNtzPMT" role="2$Fqj6">
+        <property role="TrG5h" value="VP_4635839938964708537" />
+        <node concept="1V74G$" id="41lNXNtzPMU" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_4635839938964708538" />
+          <ref role="1V74G_" to="880c:41lNXNtzPMS" resolve="Fragment_4635839938964708536" />
+        </node>
+      </node>
+      <node concept="1V74G3" id="41lNXNtzV78" role="2$Fqj6">
+        <property role="TrG5h" value="VP_4635839938964730312" />
+        <node concept="1V74G$" id="41lNXNtzV79" role="1V74Gw">
+          <property role="TrG5h" value="VPToFragment_4635839938964730313" />
+          <ref role="1V74G_" to="880c:41lNXNtzV77" resolve="Fragment_4635839938964730311" />
+        </node>
+      </node>
     </node>
     <node concept="mJI6J" id="41lNXNtvHTO" role="2tDTRo">
       <node concept="mGrBK" id="41lNXNtvHTX" role="3uHU7w">
@@ -15652,6 +15704,14 @@
       </node>
       <node concept="mGrBK" id="41lNXNtvHTU" role="3uHU7B">
         <ref role="mGtU6" node="41lNXNtvGFg" resolve="AdminPanel" />
+      </node>
+    </node>
+    <node concept="mJI6J" id="41lNXNtAtZ4" role="2tDTRo">
+      <node concept="mGrBK" id="41lNXNtAtZ3" role="3uHU7B">
+        <ref role="mGtU6" node="41lNXNtzJJP" resolve="EditorPanel" />
+      </node>
+      <node concept="mGrBK" id="41lNXNtAtZc" role="3uHU7w">
+        <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
       </node>
     </node>
   </node>
@@ -15667,16 +15727,21 @@
     </node>
     <node concept="u25OH" id="2UqJsb6fjbL" role="2M0niC">
       <node concept="2Hijyl" id="2UqJsb6fjbM" role="2Hjnvt">
-        <node concept="u2itq" id="41lNXNtwYKl" role="3clFbG">
-          <node concept="u2itw" id="41lNXNtwYKx" role="3uHU7w">
-            <ref role="u2itx" node="41lNXNtvGFg" resolve="AdminPanel" />
+        <node concept="u2itq" id="41lNXNtAtSg" role="3clFbG">
+          <node concept="u2itw" id="41lNXNtAtSw" role="3uHU7w">
+            <ref role="u2itx" node="41lNXNtzJJP" resolve="EditorPanel" />
           </node>
-          <node concept="u2itq" id="2UqJsb6fjc0" role="3uHU7B">
-            <node concept="u2itw" id="2UqJsb6fjbU" role="3uHU7B">
-              <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
+          <node concept="u2itq" id="41lNXNtwYKl" role="3uHU7B">
+            <node concept="u2itq" id="2UqJsb6fjc0" role="3uHU7B">
+              <node concept="u2itw" id="2UqJsb6fjbU" role="3uHU7B">
+                <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
+              </node>
+              <node concept="u2itw" id="41lNXNtwYKf" role="3uHU7w">
+                <ref role="u2itx" node="41lNXNtklyF" resolve="GUI" />
+              </node>
             </node>
-            <node concept="u2itw" id="41lNXNtwYKf" role="3uHU7w">
-              <ref role="u2itx" node="41lNXNtklyF" resolve="GUI" />
+            <node concept="u2itw" id="41lNXNtwYKx" role="3uHU7w">
+              <ref role="u2itx" node="41lNXNtvGFg" resolve="AdminPanel" />
             </node>
           </node>
         </node>
