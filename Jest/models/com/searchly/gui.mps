@@ -53,6 +53,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -89,13 +90,7 @@
       </concept>
     </language>
     <language id="fe78a547-334d-4401-802e-373d6ba57db0" name="de.htwsaar.peopl.baseLanguageExtension">
-      <concept id="5367334895054757981" name="de.htwsaar.peopl.baseLanguageExtension.structure.PeoplBlockReference" flags="ng" index="ocbFV">
-        <reference id="5367334895054759198" name="myPeoplBlockStatement" index="ocbYS" />
-      </concept>
-      <concept id="8278521231462442196" name="de.htwsaar.peopl.baseLanguageExtension.structure.PeoplBlockStatement" flags="ng" index="2wexfA">
-        <reference id="5367334895053082371" name="definingClass" index="ojxm_" />
-        <reference id="5367334895053082369" name="definingMethod" index="ojxmB" />
-      </concept>
+      <concept id="8278521231462442196" name="de.htwsaar.peopl.baseLanguageExtension.structure.PeoplBlockStatement" flags="ng" index="2wexfA" />
       <concept id="7393375248447811212" name="de.htwsaar.peopl.baseLanguageExtension.structure.PeoplEntryPoint" flags="ng" index="2SvMkh">
         <child id="5089003046184340442" name="peoplClasses" index="2abgUk" />
       </concept>
@@ -136,10 +131,9 @@
         <node concept="3Tm1VV" id="5EALk6tpfsb" role="1B3o_S" />
         <node concept="3cqZAl" id="5EALk6tpfsc" role="3clF45" />
         <node concept="3clFbS" id="6OQFfJL3wv1" role="3clF47">
-          <node concept="2wexfA" id="6OQFfJL3wv2" role="3cqZAp">
-            <ref role="ojxm_" node="6OQFfJL3vOm" resolve="Main" />
-            <ref role="ojxmB" node="5EALk6tpfrZ" resolve="main" />
-            <node concept="3clFbS" id="5EALk6tpfs3" role="9aQI4">
+          <node concept="3clFbH" id="41lNXNta3EI" role="3cqZAp" />
+          <node concept="2wexfA" id="41lNXNta5US" role="3cqZAp">
+            <node concept="3clFbS" id="41lNXNta5UT" role="9aQI4">
               <node concept="3cpWs8" id="5EALk6tpfs5" role="3cqZAp">
                 <node concept="3cpWsn" id="5EALk6tpfs4" role="3cpWs9">
                   <property role="3TUv4t" value="false" />
@@ -167,19 +161,17 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="41lNXNta6_t" role="3cqZAp" />
             </node>
-            <node concept="1V74GB" id="NQVgKDLu24" role="lGtFl">
+            <node concept="1V74GB" id="41lNXNta5UU" role="lGtFl">
               <property role="32Xqk$" value="chosenModule" />
-              <property role="TrG5h" value="Fragment_934194609222180996" />
-              <ref role="1V74Hf" to="x0nt:NQVgKDLu26" resolve="VPToFragment_934194609222180998" />
-              <ref role="a64iB" to="x0nt:1WBg84Szxj2" resolve="SnapshotHandling" />
-              <ref role="3aRQVk" to="x0nt:NQVgKDQ_dE" resolve="ModuleToFragment_934194609223521130" />
+              <property role="TrG5h" value="Fragment_4635839938957958842" />
+              <ref role="1V74Hf" to="x0nt:41lNXNta5UW" resolve="VPToFragment_4635839938957958844" />
+              <ref role="a64iB" to="x0nt:41lNXNt8JEh" resolve="GUI" />
+              <ref role="3aRQVk" to="x0nt:41lNXNta6$s" resolve="ModuleToFragment_4635839938957961500" />
             </node>
           </node>
-        </node>
-        <node concept="ocbFV" id="6OQFfJL3wv8" role="lGtFl">
-          <property role="TrG5h" value="PeoplBlockReference_7869667596957517768" />
-          <ref role="ocbYS" node="6OQFfJL3wv2" />
+          <node concept="3clFbH" id="41lNXNta3Fx" role="3cqZAp" />
         </node>
       </node>
       <node concept="2tJIrI" id="6OQFfJL3wuI" role="jymVt" />

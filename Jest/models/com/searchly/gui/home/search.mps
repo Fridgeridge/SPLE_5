@@ -292,9 +292,9 @@
               <property role="32Xqk$" value="chosenModule" />
               <property role="TrG5h" value="Fragment_4635839938954322282" />
               <ref role="1V74Hf" to="x0nt:41lNXNsWe5G" resolve="VPToFragment_4635839938954322284" />
-              <ref role="3aRQVk" to="x0nt:41lNXNsWe5H" resolve="ModuleToFragment_4635839938954322285" />
-              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
               <ref role="25GeQm" node="41lNXNsWe5I" resolve="PeoplBlockReference_4635839938954322286" />
+              <ref role="a64iB" to="x0nt:41lNXNt8JEh" resolve="GUI" />
+              <ref role="3aRQVk" to="x0nt:41lNXNt8KXr" resolve="ModuleToFragment_4635839938957610843" />
             </node>
           </node>
         </node>
@@ -506,9 +506,9 @@
               <property role="32Xqk$" value="chosenModule" />
               <property role="TrG5h" value="Fragment_4635839938954328032" />
               <ref role="1V74Hf" to="x0nt:41lNXNsWfvy" resolve="VPToFragment_4635839938954328034" />
-              <ref role="3aRQVk" to="x0nt:41lNXNsWfvz" resolve="ModuleToFragment_4635839938954328035" />
-              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
               <ref role="25GeQm" node="41lNXNsWfv$" resolve="PeoplBlockReference_4635839938954328036" />
+              <ref role="a64iB" to="x0nt:41lNXNt8JEh" resolve="GUI" />
+              <ref role="3aRQVk" to="x0nt:41lNXNt8KXu" resolve="ModuleToFragment_4635839938957610846" />
             </node>
           </node>
         </node>
@@ -526,8 +526,8 @@
         <property role="32Xqk$" value="chosenModule" />
         <property role="TrG5h" value="Fragment_4635839938953258041" />
         <ref role="1V74Hf" to="x0nt:41lNXNsSagV" resolve="VPToFragment_4635839938953258043" />
-        <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
-        <ref role="3aRQVk" to="x0nt:41lNXNsSaXO" resolve="ModuleToFragment_4635839938953260916" />
+        <ref role="a64iB" to="x0nt:41lNXNt8JEh" resolve="GUI" />
+        <ref role="3aRQVk" to="x0nt:41lNXNt8KXi" resolve="ModuleToFragment_4635839938957610834" />
       </node>
       <node concept="3uibUv" id="41lNXNsSaTr" role="1zkMxy">
         <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
