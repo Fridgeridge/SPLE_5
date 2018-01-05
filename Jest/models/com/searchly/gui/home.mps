@@ -11,6 +11,7 @@
     <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="gsia" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.event(JDK/)" />
     <import index="4sk8" ref="r:ac023eae-044c-43f6-b3ea-8cdb918ac11b(com.searchly.gui.home.search)" />
+    <import index="ggus" ref="r:29cff10c-cf90-42ed-9591-00a0d6c5bf15(com.searchly.gui.home.admin)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -69,6 +70,7 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -181,7 +183,51 @@
           <property role="Xl_RC" value="Search" />
         </node>
       </node>
-      <node concept="2tJIrI" id="41lNXNsWd_P" role="jymVt" />
+      <node concept="2tJIrI" id="41lNXNtyiCi" role="jymVt" />
+      <node concept="312cEg" id="41lNXNtyjDi" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="adminPanel" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="41lNXNtyiXS" role="1B3o_S" />
+        <node concept="3uibUv" id="41lNXNtyjzo" role="1tU5fm">
+          <ref role="3uigEE" to="ggus:41lNXNtvFXE" resolve="AdminPanel" />
+        </node>
+        <node concept="2ShNRf" id="41lNXNtyjYH" role="33vP2m">
+          <node concept="1pGfFk" id="41lNXNtylmB" role="2ShVmc">
+            <ref role="37wK5l" to="ggus:41lNXNtwZq_" resolve="AdminPanel" />
+          </node>
+        </node>
+        <node concept="1V74GB" id="41lNXNtymwK" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_4635839938964318256" />
+          <ref role="1V74Hf" to="x0nt:41lNXNtymwM" resolve="VPToFragment_4635839938964318258" />
+          <ref role="a64iB" to="x0nt:41lNXNtvGFg" resolve="AdminPanel" />
+          <ref role="3aRQVk" to="x0nt:41lNXNtyn8B" resolve="ModuleToFragment_4635839938964320807" />
+        </node>
+      </node>
+      <node concept="Wx3nA" id="41lNXNtym8T" role="jymVt">
+        <property role="2dlcS1" value="false" />
+        <property role="2dld4O" value="false" />
+        <property role="TrG5h" value="ADMIN_PANEL_KEY" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm1VV" id="41lNXNtylBw" role="1B3o_S" />
+        <node concept="17QB3L" id="41lNXNtym1t" role="1tU5fm" />
+        <node concept="Xl_RD" id="41lNXNtymum" role="33vP2m">
+          <property role="Xl_RC" value="Admin" />
+        </node>
+        <node concept="1V74GB" id="41lNXNtypfb" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_4635839938964329419" />
+          <ref role="1V74Hf" to="x0nt:41lNXNtypfd" resolve="VPToFragment_4635839938964329421" />
+          <ref role="a64iB" to="x0nt:41lNXNtvGFg" resolve="AdminPanel" />
+          <ref role="3aRQVk" to="x0nt:41lNXNtypR3" resolve="ModuleToFragment_4635839938964331971" />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="41lNXNtyoSw" role="jymVt" />
+      <node concept="2tJIrI" id="41lNXNtyofo" role="jymVt" />
+      <node concept="2tJIrI" id="41lNXNtynsQ" role="jymVt" />
+      <node concept="2tJIrI" id="41lNXNtynga" role="jymVt" />
       <node concept="2tJIrI" id="41lNXNsWdFs" role="jymVt" />
       <node concept="3clFbW" id="6OQFfJL9U1N" role="jymVt">
         <node concept="3cqZAl" id="6OQFfJL9U1O" role="3clF45" />
@@ -384,6 +430,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="41lNXNtypRP" role="3cqZAp" />
             </node>
             <node concept="1V74GB" id="41lNXNsSbRj" role="lGtFl">
               <property role="32Xqk$" value="chosenModule" />
@@ -392,6 +439,34 @@
               <ref role="25GeQm" node="41lNXNsSbRn" resolve="PeoplBlockReference_4635839938953264599" />
               <ref role="a64iB" to="x0nt:41lNXNtklyF" resolve="GUI" />
               <ref role="3aRQVk" to="x0nt:41lNXNtlAxP" resolve="ModuleToFragment_4635839938960975989" />
+            </node>
+          </node>
+          <node concept="2wexfA" id="41lNXNtytaR" role="3cqZAp">
+            <node concept="3clFbS" id="41lNXNtytaS" role="9aQI4">
+              <node concept="3clFbF" id="41lNXNtyqW7" role="3cqZAp">
+                <node concept="2OqwBi" id="41lNXNtyrdU" role="3clFbG">
+                  <node concept="37vLTw" id="41lNXNtyqW5" role="2Oq$k0">
+                    <ref role="3cqZAo" node="41lNXNsRURV" resolve="tabs" />
+                  </node>
+                  <node concept="liA8E" id="41lNXNtysd0" role="2OqNvi">
+                    <ref role="37wK5l" to="dxuu:~JTabbedPane.addTab(java.lang.String,java.awt.Component):void" resolve="addTab" />
+                    <node concept="37vLTw" id="41lNXNtysDB" role="37wK5m">
+                      <ref role="3cqZAo" node="41lNXNtym8T" resolve="ADMIN_PANEL_KEY" />
+                    </node>
+                    <node concept="37vLTw" id="41lNXNtyt85" role="37wK5m">
+                      <ref role="3cqZAo" node="41lNXNtyjDi" resolve="adminPanel" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="41lNXNtytTL" role="3cqZAp" />
+            </node>
+            <node concept="1V74GB" id="41lNXNtytaT" role="lGtFl">
+              <property role="32Xqk$" value="chosenModule" />
+              <property role="TrG5h" value="Fragment_4635839938964345529" />
+              <ref role="1V74Hf" to="x0nt:41lNXNtytaV" resolve="VPToFragment_4635839938964345531" />
+              <ref role="a64iB" to="x0nt:41lNXNtvGFg" resolve="AdminPanel" />
+              <ref role="3aRQVk" to="x0nt:41lNXNtytQE" resolve="ModuleToFragment_4635839938964348330" />
             </node>
           </node>
         </node>
