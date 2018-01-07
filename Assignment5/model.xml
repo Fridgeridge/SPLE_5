@@ -18,24 +18,24 @@
 							<feature name="DeleteIndex"/>
 							<feature name="CloseIndex"/>
 						</or>
-						<and name="Documents">
-							<or name="DocumentIndex">
+						<and mandatory="true" name="Documents">
+							<or mandatory="true" name="DocumentIndex">
 								<feature name="DocumentIndexJSON"/>
 								<feature name="DocumentIndexJSONBuilder"/>
 								<feature name="DocumentIndexMap"/>
 								<feature name="DocumentIndexPOJO"/>
 							</or>
-							<feature name="DocumentSearch"/>
+							<feature mandatory="true" name="DocumentSearch"/>
 							<feature name="DocumentGet"/>
 							<feature name="DocumentUpdate"/>
 							<feature name="DocumentDelete"/>
 						</and>
 						<feature name="AsyncExecution"/>
 					</and>
-					<alt mandatory="true" name="UI">
+					<and mandatory="true" name="UI">
 						<feature name="AdminPanel"/>
 						<feature name="EditorPanel"/>
-					</alt>
+					</and>
 					<feature name="Authentication"/>
 					<feature name="Analyze"/>
 				</and>
