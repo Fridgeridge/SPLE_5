@@ -32,8 +32,12 @@
 						</and>
 						<feature name="AsyncExecution"/>
 					</and>
-					<feature mandatory="true" name="UI"/>
+					<alt mandatory="true" name="UI">
+						<feature name="AdminPanel"/>
+						<feature name="EditorPanel"/>
+					</alt>
 					<feature name="Authentication"/>
+					<feature name="Analyze"/>
 				</and>
 			</and>
 		</struct>

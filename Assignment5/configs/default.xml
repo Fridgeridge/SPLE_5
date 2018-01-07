@@ -12,6 +12,8 @@
 		<feature automatic="undefined" manual="undefined" name="IndexHandling"/>
 		<feature automatic="undefined" manual="undefined" name="CreateIndex"/>
 		<feature automatic="undefined" manual="undefined" name="IndexMapping"/>
+		<feature automatic="undefined" manual="undefined" name="DeleteIndex"/>
+		<feature automatic="undefined" manual="undefined" name="CloseIndex"/>
 		<feature automatic="undefined" manual="undefined" name="Documents"/>
 		<feature automatic="undefined" manual="undefined" name="DocumentIndex"/>
 		<feature automatic="undefined" manual="undefined" name="DocumentIndexJSON"/>
@@ -24,5 +26,8 @@
 		<feature automatic="undefined" manual="undefined" name="DocumentDelete"/>
 		<feature automatic="undefined" manual="undefined" name="AsyncExecution"/>
 		<feature automatic="undefined" manual="undefined" name="UI"/>
+		<feature automatic="undefined" manual="undefined" name="AdminPanel"/>
+		<feature automatic="undefined" manual="undefined" name="EditorPanel"/>
 		<feature automatic="undefined" manual="undefined" name="Authentication"/>
+		<feature automatic="undefined" manual="undefined" name="Analyze"/>
 	</configuration>
