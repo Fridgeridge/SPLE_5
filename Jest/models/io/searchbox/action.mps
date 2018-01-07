@@ -924,9 +924,9 @@
               <property role="32Xqk$" value="chosenModule" />
               <property role="TrG5h" value="Fragment_8496368874152530711" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKz1cp" resolve="VPToFragment_8496368874152530713" />
-              <ref role="3aRQVk" to="x0nt:7nDaBAKz1cq" resolve="ModuleToFragment_8496368874152530714" />
-              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
               <ref role="25GeQm" node="7nDaBAKz1cr" resolve="PeoplBlockReference_8496368874152530715" />
+              <ref role="a64iB" to="x0nt:5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
+              <ref role="3aRQVk" to="x0nt:4pIXmV_EGmu" resolve="ModuleToFragment_5075263686741509534" />
             </node>
           </node>
         </node>
@@ -1001,9 +1001,9 @@
               <property role="32Xqk$" value="chosenModule" />
               <property role="TrG5h" value="Fragment_8496368874152530719" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKz1cx" resolve="VPToFragment_8496368874152530721" />
-              <ref role="3aRQVk" to="x0nt:7nDaBAKz1cy" resolve="ModuleToFragment_8496368874152530722" />
-              <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
               <ref role="25GeQm" node="7nDaBAKz1cz" resolve="PeoplBlockReference_8496368874152530723" />
+              <ref role="a64iB" to="x0nt:5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
+              <ref role="3aRQVk" to="x0nt:4pIXmV_EGTn" resolve="ModuleToFragment_5075263686741511767" />
             </node>
           </node>
         </node>
