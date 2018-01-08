@@ -22,9 +22,6 @@
       </concept>
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
-      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -239,8 +236,8 @@
           <ref role="3uigEE" to="6wzk:41lNXNtzIZG" resolve="EditorPanel" />
         </node>
         <node concept="2ShNRf" id="41lNXNtzMx5" role="33vP2m">
-          <node concept="HV5vD" id="41lNXNtzNT1" role="2ShVmc">
-            <ref role="HV5vE" to="6wzk:41lNXNtzIZG" resolve="EditorPanel" />
+          <node concept="1pGfFk" id="20c41x1k3Ao" role="2ShVmc">
+            <ref role="37wK5l" to="6wzk:3m39VNsU8J2" resolve="EditorPanel" />
           </node>
         </node>
         <node concept="1V74GB" id="41lNXNtzNTP" role="lGtFl">

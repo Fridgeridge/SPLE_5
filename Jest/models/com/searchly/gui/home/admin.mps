@@ -347,6 +347,77 @@
           <ref role="3aRQVk" to="x0nt:41lNXNu1IOy" resolve="ModuleToFragment_4635839938972544290" />
         </node>
       </node>
+      <node concept="2tJIrI" id="3m39VNsSagl" role="jymVt" />
+      <node concept="312cEg" id="3m39VNsSduz" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="asynchronousPanel" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="3m39VNsScif" role="1B3o_S" />
+        <node concept="3uibUv" id="3m39VNsSdp0" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
+        </node>
+        <node concept="2ShNRf" id="3m39VNsSdUa" role="33vP2m">
+          <node concept="1pGfFk" id="3m39VNsSfcM" role="2ShVmc">
+            <ref role="37wK5l" to="dxuu:~JPanel.&lt;init&gt;()" resolve="JPanel" />
+          </node>
+        </node>
+        <node concept="1V74GB" id="20c41x1kk_i" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_2309238405295327570" />
+          <ref role="1V74Hf" to="x0nt:20c41x1kk_k" resolve="VPToFragment_2309238405295327572" />
+          <ref role="a64iB" to="x0nt:5w4KjKVPJiT" resolve="AsyncExecution" />
+          <ref role="3aRQVk" to="x0nt:20c41x1kli6" resolve="ModuleToFragment_2309238405295330438" />
+        </node>
+      </node>
+      <node concept="312cEg" id="3m39VNsSgZR" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="asynchronousLabel" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="3m39VNsSfHK" role="1B3o_S" />
+        <node concept="3uibUv" id="3m39VNsSgUk" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JLabel" resolve="JLabel" />
+        </node>
+        <node concept="2ShNRf" id="3m39VNsShr8" role="33vP2m">
+          <node concept="1pGfFk" id="3m39VNsSiHJ" role="2ShVmc">
+            <ref role="37wK5l" to="dxuu:~JLabel.&lt;init&gt;(java.lang.String)" resolve="JLabel" />
+            <node concept="Xl_RD" id="3m39VNsSiTc" role="37wK5m">
+              <property role="Xl_RC" value="Use asynchronous execution" />
+            </node>
+          </node>
+        </node>
+        <node concept="1V74GB" id="20c41x1kloD" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_2309238405295330857" />
+          <ref role="1V74Hf" to="x0nt:20c41x1kloF" resolve="VPToFragment_2309238405295330859" />
+          <ref role="a64iB" to="x0nt:5w4KjKVPJiT" resolve="AsyncExecution" />
+          <ref role="3aRQVk" to="x0nt:20c41x1km2X" resolve="ModuleToFragment_2309238405295333565" />
+        </node>
+      </node>
+      <node concept="312cEg" id="3m39VNsSkKE" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="asynchronousCheckBox" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="3m39VNsSjxe" role="1B3o_S" />
+        <node concept="3uibUv" id="3m39VNsSkF0" role="1tU5fm">
+          <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+        </node>
+        <node concept="2ShNRf" id="3m39VNsSlc1" role="33vP2m">
+          <node concept="1pGfFk" id="3m39VNsSmuC" role="2ShVmc">
+            <ref role="37wK5l" to="dxuu:~JCheckBox.&lt;init&gt;()" resolve="JCheckBox" />
+          </node>
+        </node>
+        <node concept="1V74GB" id="20c41x1km70" role="lGtFl">
+          <property role="32Xqk$" value="chosenModule" />
+          <property role="TrG5h" value="Fragment_2309238405295333824" />
+          <ref role="1V74Hf" to="x0nt:20c41x1km72" resolve="VPToFragment_2309238405295333826" />
+          <ref role="a64iB" to="x0nt:5w4KjKVPJiT" resolve="AsyncExecution" />
+          <ref role="3aRQVk" to="x0nt:20c41x1kmLl" resolve="ModuleToFragment_2309238405295336533" />
+        </node>
+      </node>
+      <node concept="2tJIrI" id="3m39VNsSaSh" role="jymVt" />
       <node concept="2tJIrI" id="41lNXNu1qF1" role="jymVt" />
       <node concept="3clFbW" id="41lNXNtwZq_" role="jymVt">
         <node concept="3cqZAl" id="41lNXNtwZqA" role="3clF45" />
@@ -671,7 +742,77 @@
             </node>
           </node>
           <node concept="3clFbH" id="41lNXNu1vZ8" role="3cqZAp" />
-          <node concept="3clFbH" id="41lNXNu1uhZ" role="3cqZAp" />
+          <node concept="2wexfA" id="3m39VNsSpkA" role="3cqZAp">
+            <ref role="ojxm_" node="41lNXNtvFXE" resolve="AdminPanel" />
+            <ref role="ojxmB" node="41lNXNtx0gz" resolve="configureLayout" />
+            <node concept="3clFbS" id="3m39VNsSpkB" role="9aQI4">
+              <node concept="3clFbF" id="3m39VNsSpkI" role="3cqZAp">
+                <node concept="1rXfSq" id="3m39VNsSpkJ" role="3clFbG">
+                  <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
+                  <node concept="37vLTw" id="3m39VNsSqyj" role="37wK5m">
+                    <ref role="3cqZAo" node="3m39VNsSduz" resolve="asynchronousPanel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3m39VNsSrNr" role="3cqZAp">
+                <node concept="2OqwBi" id="3m39VNsSsc1" role="3clFbG">
+                  <node concept="37vLTw" id="3m39VNsSrNp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3m39VNsSduz" resolve="asynchronousPanel" />
+                  </node>
+                  <node concept="liA8E" id="3m39VNsSsYB" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Container.setLayout(java.awt.LayoutManager):void" resolve="setLayout" />
+                    <node concept="2ShNRf" id="3m39VNsStaM" role="37wK5m">
+                      <node concept="1pGfFk" id="3m39VNsSuuQ" role="2ShVmc">
+                        <ref role="37wK5l" to="z60i:~BorderLayout.&lt;init&gt;()" resolve="BorderLayout" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3m39VNsSv$e" role="3cqZAp">
+                <node concept="2OqwBi" id="3m39VNsSvXn" role="3clFbG">
+                  <node concept="37vLTw" id="3m39VNsSv$c" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3m39VNsSduz" resolve="asynchronousPanel" />
+                  </node>
+                  <node concept="liA8E" id="3m39VNsSwKq" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component,java.lang.Object):void" resolve="add" />
+                    <node concept="37vLTw" id="3m39VNsSx7O" role="37wK5m">
+                      <ref role="3cqZAo" node="3m39VNsSgZR" resolve="asynchronousLabel" />
+                    </node>
+                    <node concept="10M0yZ" id="3m39VNsSx$G" role="37wK5m">
+                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
+                      <ref role="3cqZAo" to="z60i:~BorderLayout.WEST" resolve="WEST" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="20c41x1t$Z3" role="3cqZAp">
+                <node concept="2OqwBi" id="20c41x1t_qd" role="3clFbG">
+                  <node concept="37vLTw" id="20c41x1t$Z1" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3m39VNsSduz" resolve="asynchronousPanel" />
+                  </node>
+                  <node concept="liA8E" id="20c41x1tAf5" role="2OqNvi">
+                    <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component,java.lang.Object):void" resolve="add" />
+                    <node concept="37vLTw" id="20c41x1tAAv" role="37wK5m">
+                      <ref role="3cqZAo" node="3m39VNsSkKE" resolve="asynchronousCheckBox" />
+                    </node>
+                    <node concept="10M0yZ" id="20c41x1tB1F" role="37wK5m">
+                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
+                      <ref role="3cqZAo" to="z60i:~BorderLayout.EAST" resolve="EAST" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1V74GB" id="3m39VNsSpkC" role="lGtFl">
+              <property role="32Xqk$" value="chosenModule" />
+              <property role="TrG5h" value="Fragment_3855969398072382760" />
+              <ref role="1V74Hf" to="x0nt:3m39VNsSpkE" resolve="VPToFragment_3855969398072382762" />
+              <ref role="25GeQm" node="3m39VNsSpkG" resolve="PeoplBlockReference_3855969398072382764" />
+              <ref role="a64iB" to="x0nt:5w4KjKVPJiT" resolve="AsyncExecution" />
+              <ref role="3aRQVk" to="x0nt:3m39VNsSqzL" resolve="ModuleToFragment_3855969398072387825" />
+            </node>
+          </node>
         </node>
         <node concept="3Tm6S6" id="41lNXNtx0ar" role="1B3o_S" />
         <node concept="ocbFV" id="41lNXNtx0gH" role="lGtFl">
@@ -680,6 +821,11 @@
           <ref role="1C2YfU" node="41lNXNtx0gD" resolve="Fragment_4635839938963964969" />
         </node>
         <node concept="3cqZAl" id="41lNXNtx15R" role="3clF45" />
+        <node concept="ocbFV" id="3m39VNsSpkG" role="lGtFl">
+          <property role="TrG5h" value="PeoplBlockReference_3855969398072382764" />
+          <ref role="ocbYS" node="3m39VNsSpkA" />
+          <ref role="1C2YfU" node="3m39VNsSpkC" resolve="Fragment_3855969398072382760" />
+        </node>
       </node>
       <node concept="2tJIrI" id="41lNXNtvGCL" role="jymVt" />
       <node concept="3Tm1VV" id="41lNXNtvFXF" role="1B3o_S" />
