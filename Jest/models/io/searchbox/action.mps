@@ -267,9 +267,17 @@
       </concept>
       <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
+    <language id="3b64420c-53d0-4c15-9e71-c9cecf76d9db" name="de.htwsaar.peopl.view.modular">
+      <concept id="1514132034719907512" name="de.htwsaar.peopl.view.modular.structure.TmpPeoplClassConcept" flags="ng" index="HxVAC">
+        <property id="1525293860101035093" name="moduleRefName" index="wgJFU" />
+        <reference id="1514132034719907513" name="myClass" index="HxVAD" />
+        <reference id="1514132034719907515" name="myModule" index="HxVAF" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1156234966388" name="shortDescription" index="OYnhT" />
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -887,8 +895,8 @@
         <property role="32Xqk$" value="chosenModule" />
         <property role="TrG5h" value="Fragment_8496368874152530701" />
         <ref role="1V74Hf" to="x0nt:7nDaBAKz1cf" resolve="VPToFragment_8496368874152530703" />
-        <ref role="a64iB" to="x0nt:7nDaBAKyLlM" resolve="Base" />
-        <ref role="3aRQVk" to="x0nt:7nDaBAKz1ci" resolve="ModuleToFragment_8496368874152530706" />
+        <ref role="a64iB" to="x0nt:5w4KjKVMTVL" resolve="Documents" />
+        <ref role="3aRQVk" to="x0nt:3m39VNtauY8" resolve="ModuleToFragment_3855969398077124488" />
       </node>
       <node concept="2tJIrI" id="7nDaBAKz1ck" role="jymVt" />
       <node concept="3uibUv" id="7j$WnoQO0L5" role="1zkMxy">
@@ -925,8 +933,8 @@
               <property role="TrG5h" value="Fragment_8496368874152530711" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKz1cp" resolve="VPToFragment_8496368874152530713" />
               <ref role="25GeQm" node="7nDaBAKz1cr" resolve="PeoplBlockReference_8496368874152530715" />
-              <ref role="a64iB" to="x0nt:5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
-              <ref role="3aRQVk" to="x0nt:4pIXmV_EGmu" resolve="ModuleToFragment_5075263686741509534" />
+              <ref role="a64iB" to="x0nt:5w4KjKVMTVL" resolve="Documents" />
+              <ref role="3aRQVk" to="x0nt:3m39VNtauYh" resolve="ModuleToFragment_3855969398077124497" />
             </node>
           </node>
         </node>
@@ -1002,8 +1010,8 @@
               <property role="TrG5h" value="Fragment_8496368874152530719" />
               <ref role="1V74Hf" to="x0nt:7nDaBAKz1cx" resolve="VPToFragment_8496368874152530721" />
               <ref role="25GeQm" node="7nDaBAKz1cz" resolve="PeoplBlockReference_8496368874152530723" />
-              <ref role="a64iB" to="x0nt:5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
-              <ref role="3aRQVk" to="x0nt:4pIXmV_EGTn" resolve="ModuleToFragment_5075263686741511767" />
+              <ref role="a64iB" to="x0nt:5w4KjKVMTVL" resolve="Documents" />
+              <ref role="3aRQVk" to="x0nt:3m39VNtauYk" resolve="ModuleToFragment_3855969398077124500" />
             </node>
           </node>
         </node>
@@ -5494,6 +5502,13 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="HxVAC" id="3m39VNsXk1V">
+    <property role="wgJFU" value="myModule" />
+    <property role="TrG5h" value="DocumentIndexJSONBuilder::SingleResultAbstractDocumentTargetedAction" />
+    <property role="3GE5qa" value="tmp.basicModularity" />
+    <ref role="HxVAF" to="x0nt:5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
+    <ref role="HxVAD" node="7nDaBAKz1cb" resolve="SingleResultAbstractDocumentTargetedAction" />
   </node>
 </model>
 
