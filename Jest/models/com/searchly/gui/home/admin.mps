@@ -742,10 +742,8 @@
             </node>
           </node>
           <node concept="3clFbH" id="41lNXNu1vZ8" role="3cqZAp" />
-          <node concept="2wexfA" id="3m39VNsSpkA" role="3cqZAp">
-            <ref role="ojxm_" node="41lNXNtvFXE" resolve="AdminPanel" />
-            <ref role="ojxmB" node="41lNXNtx0gz" resolve="configureLayout" />
-            <node concept="3clFbS" id="3m39VNsSpkB" role="9aQI4">
+          <node concept="2wexfA" id="20c41x1EuAn" role="3cqZAp">
+            <node concept="3clFbS" id="20c41x1EuAo" role="9aQI4">
               <node concept="3clFbF" id="3m39VNsSpkI" role="3cqZAp">
                 <node concept="1rXfSq" id="3m39VNsSpkJ" role="3clFbG">
                   <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
@@ -780,8 +778,8 @@
                       <ref role="3cqZAo" node="3m39VNsSgZR" resolve="asynchronousLabel" />
                     </node>
                     <node concept="10M0yZ" id="3m39VNsSx$G" role="37wK5m">
-                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
                       <ref role="3cqZAo" to="z60i:~BorderLayout.WEST" resolve="WEST" />
+                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
                     </node>
                   </node>
                 </node>
@@ -797,20 +795,19 @@
                       <ref role="3cqZAo" node="3m39VNsSkKE" resolve="asynchronousCheckBox" />
                     </node>
                     <node concept="10M0yZ" id="20c41x1tB1F" role="37wK5m">
-                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
                       <ref role="3cqZAo" to="z60i:~BorderLayout.EAST" resolve="EAST" />
+                      <ref role="1PxDUh" to="z60i:~BorderLayout" resolve="BorderLayout" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="1V74GB" id="3m39VNsSpkC" role="lGtFl">
+            <node concept="1V74GB" id="20c41x1EuAp" role="lGtFl">
               <property role="32Xqk$" value="chosenModule" />
-              <property role="TrG5h" value="Fragment_3855969398072382760" />
-              <ref role="1V74Hf" to="x0nt:3m39VNsSpkE" resolve="VPToFragment_3855969398072382762" />
-              <ref role="25GeQm" node="3m39VNsSpkG" resolve="PeoplBlockReference_3855969398072382764" />
+              <property role="TrG5h" value="Fragment_2309238405301135769" />
+              <ref role="1V74Hf" to="x0nt:20c41x1EuAr" resolve="VPToFragment_2309238405301135771" />
               <ref role="a64iB" to="x0nt:5w4KjKVPJiT" resolve="AsyncExecution" />
-              <ref role="3aRQVk" to="x0nt:3m39VNsSqzL" resolve="ModuleToFragment_3855969398072387825" />
+              <ref role="3aRQVk" to="x0nt:20c41x1EvwV" resolve="ModuleToFragment_2309238405301139515" />
             </node>
           </node>
         </node>
@@ -821,11 +818,6 @@
           <ref role="1C2YfU" node="41lNXNtx0gD" resolve="Fragment_4635839938963964969" />
         </node>
         <node concept="3cqZAl" id="41lNXNtx15R" role="3clF45" />
-        <node concept="ocbFV" id="3m39VNsSpkG" role="lGtFl">
-          <property role="TrG5h" value="PeoplBlockReference_3855969398072382764" />
-          <ref role="ocbYS" node="3m39VNsSpkA" />
-          <ref role="1C2YfU" node="3m39VNsSpkC" resolve="Fragment_3855969398072382760" />
-        </node>
       </node>
       <node concept="2tJIrI" id="41lNXNtvGCL" role="jymVt" />
       <node concept="3Tm1VV" id="41lNXNtvFXF" role="1B3o_S" />
