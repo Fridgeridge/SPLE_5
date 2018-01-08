@@ -67,7 +67,6 @@
         <reference id="7037608403905758472" name="connectedModule" index="mGtU6" />
       </concept>
       <concept id="7037608403905313313" name="de.htwsaar.peopl.core.structure.ImpliesOperation" flags="ng" index="mJI6J" />
-      <concept id="6975064677845893442" name="de.htwsaar.peopl.core.structure.XorOperation" flags="ng" index="oFm$s" />
       <concept id="6648222251507162664" name="de.htwsaar.peopl.core.structure.VariabilityDataStorage" flags="ng" index="2$Fqj1">
         <child id="6648222251507162671" name="vp" index="2$Fqj6" />
       </concept>
@@ -109,6 +108,319 @@
   </registry>
   <node concept="288GkY" id="7nDaBAKyLlK">
     <property role="TrG5h" value="ModuleDefinitions" />
+    <node concept="mGrBK" id="4OC0P8pbBTH" role="2tDTRo">
+      <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbBYi" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbBYL" role="3uHU7w">
+        <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbBTN" role="3uHU7B">
+        <node concept="1Wc70l" id="4OC0P8pbBUe" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbBWi" role="3uHU7w">
+            <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbBU4" role="3uHU7B">
+            <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbBZa" role="2tDTRo">
+      <node concept="1eOMI4" id="4OC0P8pbBZo" role="3uHU7w">
+        <node concept="1Wc70l" id="4OC0P8pbBZE" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbC02" role="3uHU7w">
+            <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbBZw" role="3uHU7B">
+            <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+          </node>
+        </node>
+      </node>
+      <node concept="mGrBK" id="4OC0P8pbBYX" role="3uHU7B">
+        <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbC5v" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbC6a" role="3uHU7w">
+        <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbC2v" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbC37" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbC3v" role="3uHU7w">
+            <ref role="mGtU6" node="2WPQaxwW8hm" resolve="Analyze" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbC2W" role="3uHU7B">
+            <ref role="mGtU6" node="4i1d6VheYMR" resolve="Authentication" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbCco" role="2tDTRo">
+      <node concept="1eOMI4" id="4OC0P8pbC6y" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbC8F" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbC9k" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVPJiT" resolve="AsyncExecution" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbC77" role="3uHU7B">
+            <node concept="mGrBK" id="4OC0P8pbC6X" role="3uHU7B">
+              <ref role="mGtU6" node="1WBg84Szxj2" resolve="SnapshotHandling" />
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbC7v" role="3uHU7w">
+              <ref role="mGtU6" node="6zJ2AogcUz8" resolve="BulkHandling" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="mGrBK" id="4OC0P8pbCdu" role="3uHU7w">
+        <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbChV" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbCiO" role="3uHU7w">
+        <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbCdY" role="3uHU7B">
+        <node concept="1Wc70l" id="4OC0P8pbCeF" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbCf3" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMTVL" resolve="Documents" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbCex" role="3uHU7B">
+            <ref role="mGtU6" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbCk8" role="2tDTRo">
+      <node concept="1eOMI4" id="4OC0P8pbCkK" role="3uHU7w">
+        <node concept="1Wc70l" id="4OC0P8pbCla" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbCly" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMTVL" resolve="Documents" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbCl0" role="3uHU7B">
+            <ref role="mGtU6" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+          </node>
+        </node>
+      </node>
+      <node concept="mGrBK" id="4OC0P8pbCjq" role="3uHU7B">
+        <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbCpS" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbCqX" role="3uHU7w">
+        <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbCmv" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbCnw" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbCnS" role="3uHU7w">
+            <ref role="mGtU6" node="41lNXNtzJJP" resolve="EditorPanel" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbCnm" role="3uHU7B">
+            <ref role="mGtU6" node="41lNXNtvGFg" resolve="AdminPanel" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbCC2" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbCDH" role="3uHU7w">
+        <ref role="mGtU6" node="1WBg84Szxj2" resolve="SnapshotHandling" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbCrJ" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbCwp" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbCxi" role="3uHU7w">
+            <ref role="mGtU6" node="6zJ2AogcU8x" resolve="RestoreSnapshot" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbCup" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbCsQ" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbCsG" role="3uHU7B">
+                <ref role="mGtU6" node="6zJ2AogcSSM" resolve="CreateSnapshot" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbCte" role="3uHU7w">
+                <ref role="mGtU6" node="6zJ2AogcTjm" resolve="DeleteSnapshot" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbCv2" role="3uHU7w">
+              <ref role="mGtU6" node="6zJ2AogcTHV" resolve="GetSnapshot" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbCFA" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbCED" role="3uHU7B">
+        <ref role="mGtU6" node="1WBg84Szxj2" resolve="SnapshotHandling" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbCG$" role="3uHU7w">
+        <node concept="22lmx$" id="4OC0P8pbCG_" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbCGA" role="3uHU7w">
+            <ref role="mGtU6" node="6zJ2AogcU8x" resolve="RestoreSnapshot" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbCGB" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbCGC" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbCGD" role="3uHU7B">
+                <ref role="mGtU6" node="6zJ2AogcSSM" resolve="CreateSnapshot" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbCGE" role="3uHU7w">
+                <ref role="mGtU6" node="6zJ2AogcTjm" resolve="DeleteSnapshot" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbCGF" role="3uHU7w">
+              <ref role="mGtU6" node="6zJ2AogcTHV" resolve="GetSnapshot" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbEyC" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbE$B" role="3uHU7w">
+        <ref role="mGtU6" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbCI$" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbEvn" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbEwg" role="3uHU7w">
+            <ref role="mGtU6" node="4OC0P8pbE0q" resolve="CloseIndex" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbEtn" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbErw" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbErl" role="3uHU7B">
+                <ref role="mGtU6" node="4OC0P8pbCJJ" resolve="CreateIndex" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbEsc" role="3uHU7w">
+                <ref role="mGtU6" node="4OC0P8pbDaB" resolve="IndexMapping" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbEu0" role="3uHU7w">
+              <ref role="mGtU6" node="4OC0P8pbD_w" resolve="DeleteIndex" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbEEw" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbEDf" role="3uHU7B">
+        <ref role="mGtU6" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbEFM" role="3uHU7w">
+        <node concept="22lmx$" id="4OC0P8pbEFN" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbEFO" role="3uHU7w">
+            <ref role="mGtU6" node="4OC0P8pbE0q" resolve="CloseIndex" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbEFP" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbEFQ" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbEFR" role="3uHU7B">
+                <ref role="mGtU6" node="4OC0P8pbCJJ" resolve="CreateIndex" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbEFS" role="3uHU7w">
+                <ref role="mGtU6" node="4OC0P8pbDaB" resolve="IndexMapping" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbEFT" role="3uHU7w">
+              <ref role="mGtU6" node="4OC0P8pbD_w" resolve="DeleteIndex" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbEMX" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbEOK" role="3uHU7w">
+        <ref role="mGtU6" node="5w4KjKVMTVL" resolve="Documents" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbEI6" role="3uHU7B">
+        <node concept="1Wc70l" id="4OC0P8pbEJH" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbEK5" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMUJe" resolve="DocumentSearch" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbEJz" role="3uHU7B">
+            <ref role="mGtU6" node="5w4KjKVMUlv" resolve="DocumentIndex" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbERL" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbEQg" role="3uHU7B">
+        <ref role="mGtU6" node="5w4KjKVMTVL" resolve="Documents" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbETk" role="3uHU7w">
+        <node concept="1Wc70l" id="4OC0P8pbETI" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbEU6" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMUJe" resolve="DocumentSearch" />
+          </node>
+          <node concept="mGrBK" id="4OC0P8pbET$" role="3uHU7B">
+            <ref role="mGtU6" node="5w4KjKVMUlv" resolve="DocumentIndex" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbF28" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbF4n" role="3uHU7w">
+        <ref role="mGtU6" node="5w4KjKVMTVL" resolve="Documents" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbEVX" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbEZj" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbEZW" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMVWx" resolve="DocumentDelete" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbEXK" role="3uHU7B">
+            <node concept="mGrBK" id="4OC0P8pbEXA" role="3uHU7B">
+              <ref role="mGtU6" node="5w4KjKVMV8Y" resolve="DocumentGet" />
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbEY8" role="3uHU7w">
+              <ref role="mGtU6" node="5w4KjKVMVyJ" resolve="DocumentUpdate" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbFe8" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbFgJ" role="3uHU7w">
+        <ref role="mGtU6" node="5w4KjKVMUlv" resolve="DocumentIndex" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbF65" role="3uHU7B">
+        <node concept="22lmx$" id="4OC0P8pbFbF" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbFc$" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMXzN" resolve="DocumentIndexPOJO" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbF9F" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbF88" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbF7Y" role="3uHU7B">
+                <ref role="mGtU6" node="5w4KjKVMWmk" resolve="DocumentIndexJSON" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbF8w" role="3uHU7w">
+                <ref role="mGtU6" node="5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbFak" role="3uHU7w">
+              <ref role="mGtU6" node="5w4KjKVMX9X" resolve="DocumentIndexMap" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="mJI6J" id="4OC0P8pbFkw" role="2tDTRo">
+      <node concept="mGrBK" id="4OC0P8pbFiB" role="3uHU7B">
+        <ref role="mGtU6" node="5w4KjKVMUlv" resolve="DocumentIndex" />
+      </node>
+      <node concept="1eOMI4" id="4OC0P8pbFmq" role="3uHU7w">
+        <node concept="22lmx$" id="4OC0P8pbFmr" role="1eOMHV">
+          <node concept="mGrBK" id="4OC0P8pbFms" role="3uHU7w">
+            <ref role="mGtU6" node="5w4KjKVMXzN" resolve="DocumentIndexPOJO" />
+          </node>
+          <node concept="22lmx$" id="4OC0P8pbFmt" role="3uHU7B">
+            <node concept="22lmx$" id="4OC0P8pbFmu" role="3uHU7B">
+              <node concept="mGrBK" id="4OC0P8pbFmv" role="3uHU7B">
+                <ref role="mGtU6" node="5w4KjKVMWmk" resolve="DocumentIndexJSON" />
+              </node>
+              <node concept="mGrBK" id="4OC0P8pbFmw" role="3uHU7w">
+                <ref role="mGtU6" node="5w4KjKVMWK8" resolve="DocumentIndexJSONBuilder" />
+              </node>
+            </node>
+            <node concept="mGrBK" id="4OC0P8pbFmx" role="3uHU7w">
+              <ref role="mGtU6" node="5w4KjKVMX9X" resolve="DocumentIndexMap" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1V77HM" id="7nDaBAKyLlM" role="288GmO">
       <property role="2_7ToJ" value="163" />
       <property role="2_7ToH" value="0" />
@@ -6538,6 +6850,34 @@
         <property role="TrG5h" value="ModuleToFragment_9039566401631625748" />
         <ref role="3aRQSO" to="orpe:7$LNc7rlyW7" resolve="Fragment_8732986285428715271" />
       </node>
+    </node>
+    <node concept="1V77HM" id="4OC0P8pbCJJ" role="288GmO">
+      <property role="2_7ToJ" value="53" />
+      <property role="2_7ToH" value="51" />
+      <property role="2_7Toi" value="57" />
+      <property role="3_QSL4" value="3486521" />
+      <property role="TrG5h" value="CreateIndex" />
+    </node>
+    <node concept="1V77HM" id="4OC0P8pbDaB" role="288GmO">
+      <property role="2_7ToJ" value="137" />
+      <property role="2_7ToH" value="65" />
+      <property role="2_7Toi" value="46" />
+      <property role="3_QSL4" value="8995118" />
+      <property role="TrG5h" value="IndexMapping" />
+    </node>
+    <node concept="1V77HM" id="4OC0P8pbD_w" role="288GmO">
+      <property role="2_7ToJ" value="84" />
+      <property role="2_7ToH" value="158" />
+      <property role="2_7Toi" value="121" />
+      <property role="3_QSL4" value="5545593" />
+      <property role="TrG5h" value="DeleteIndex" />
+    </node>
+    <node concept="1V77HM" id="4OC0P8pbE0q" role="288GmO">
+      <property role="2_7ToJ" value="61" />
+      <property role="2_7ToH" value="79" />
+      <property role="2_7Toi" value="68" />
+      <property role="3_QSL4" value="4017988" />
+      <property role="TrG5h" value="CloseIndex" />
     </node>
     <node concept="1V77HM" id="4i1d6VheYMR" role="288GmO">
       <property role="2_7ToJ" value="163" />
@@ -16011,115 +16351,67 @@
         </node>
       </node>
     </node>
-    <node concept="mJI6J" id="6zJ2AogcSSm" role="2tDTRo">
-      <node concept="mGrBK" id="6zJ2AogcSSJ" role="3uHU7w">
-        <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
-      </node>
-      <node concept="oFm$s" id="6zJ2AogcSRQ" role="3uHU7B">
-        <node concept="1eOMI4" id="6zJ2AogcSRp" role="3uHU7B">
-          <node concept="mGrBK" id="6zJ2AogcSRF" role="1eOMHV">
-            <ref role="mGtU6" node="41lNXNtvGFg" resolve="AdminPanel" />
-          </node>
-        </node>
-        <node concept="1eOMI4" id="6zJ2AogcSS3" role="3uHU7w">
-          <node concept="mGrBK" id="6zJ2AogcSSb" role="1eOMHV">
-            <ref role="mGtU6" node="41lNXNtzJJP" resolve="EditorPanel" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1Wc70l" id="6zJ2AogcVrJ" role="2tDTRo">
-      <node concept="mGrBK" id="6zJ2AogcVst" role="3uHU7w">
-        <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
-      </node>
-      <node concept="1Wc70l" id="6zJ2AogcUY6" role="3uHU7B">
-        <node concept="mGrBK" id="6zJ2AogcUXT" role="3uHU7B">
-          <ref role="mGtU6" node="41lNXNtklyF" resolve="GUI" />
-        </node>
-        <node concept="mGrBK" id="6zJ2AogcVqA" role="3uHU7w">
-          <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
-        </node>
-      </node>
-    </node>
-    <node concept="mJI6J" id="6zJ2AogcVFs" role="2tDTRo">
-      <node concept="mGrBK" id="6zJ2AogcVGj" role="3uHU7w">
-        <ref role="mGtU6" node="7nDaBAKyLlM" resolve="Base" />
-      </node>
-      <node concept="1eOMI4" id="6zJ2AogcVCn" role="3uHU7B">
-        <node concept="22lmx$" id="6zJ2AogcVD4" role="1eOMHV">
-          <node concept="mGrBK" id="6zJ2AogcVDs" role="3uHU7w">
-            <ref role="mGtU6" node="2WPQaxwW8hm" resolve="Analyze" />
-          </node>
-          <node concept="mGrBK" id="6zJ2AogcVCU" role="3uHU7B">
-            <ref role="mGtU6" node="4i1d6VheYMR" resolve="Authentication" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1Wc70l" id="6zJ2AogcVug" role="2tDTRo">
-      <node concept="mGrBK" id="6zJ2AogcVuM" role="3uHU7w">
-        <ref role="mGtU6" node="6zJ2AogcUYP" resolve="ServerCommunication" />
-      </node>
-      <node concept="mGrBK" id="6zJ2AogcVtY" role="3uHU7B">
-        <ref role="mGtU6" node="2Ww9bxrCfpn" resolve="IndexHandling" />
-      </node>
-    </node>
-    <node concept="mJI6J" id="6zJ2AogcVAG" role="2tDTRo">
-      <node concept="mGrBK" id="6zJ2AogcVBT" role="3uHU7w">
-        <ref role="mGtU6" node="1WBg84Szxj2" resolve="SnapshotHandling" />
-      </node>
-      <node concept="1eOMI4" id="6zJ2AogcVvl" role="3uHU7B">
-        <node concept="22lmx$" id="6zJ2AogcVzr" role="1eOMHV">
-          <node concept="mGrBK" id="6zJ2AogcV$k" role="3uHU7w">
-            <ref role="mGtU6" node="6zJ2AogcU8x" resolve="RestoreSnapshot" />
-          </node>
-          <node concept="22lmx$" id="6zJ2AogcVxr" role="3uHU7B">
-            <node concept="22lmx$" id="6zJ2AogcVvQ" role="3uHU7B">
-              <node concept="mGrBK" id="6zJ2AogcVvG" role="3uHU7B">
-                <ref role="mGtU6" node="6zJ2AogcSSM" resolve="CreateSnapshot" />
-              </node>
-              <node concept="mGrBK" id="6zJ2AogcVwe" role="3uHU7w">
-                <ref role="mGtU6" node="6zJ2AogcTjm" resolve="DeleteSnapshot" />
-              </node>
-            </node>
-            <node concept="mGrBK" id="6zJ2AogcVy4" role="3uHU7w">
-              <ref role="mGtU6" node="6zJ2AogcTHV" resolve="GetSnapshot" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="2M0niJ" id="7nDaBAKyLlN">
     <property role="TrG5h" value="Jest" />
     <ref role="2M0niE" node="2UqJsb6fjbL" />
     <node concept="u25OH" id="2UqJsb6fjbL" role="2M0niC">
       <node concept="2Hijyl" id="2UqJsb6fjbM" role="2Hjnvt">
-        <node concept="u2itq" id="6zJ2AogebLq" role="3clFbG">
-          <node concept="u2itw" id="6zJ2AogebLm" role="3uHU7w">
-            <ref role="u2itx" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+        <node concept="u2itq" id="4OC0P8pbFzl" role="3clFbG">
+          <node concept="u2itw" id="4OC0P8pbF$8" role="3uHU7w">
+            <ref role="u2itx" node="5w4KjKVMX9X" resolve="DocumentIndexMap" />
           </node>
-          <node concept="u2itq" id="6zJ2AogebL2" role="3uHU7B">
-            <node concept="u2itq" id="41lNXNuelrt" role="3uHU7B">
-              <node concept="u2itq" id="41lNXNtwYKl" role="3uHU7B">
-                <node concept="u2itq" id="2UqJsb6fjc0" role="3uHU7B">
-                  <node concept="u2itw" id="2UqJsb6fjbU" role="3uHU7B">
-                    <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
+          <node concept="u2itq" id="4OC0P8pbFyz" role="3uHU7B">
+            <node concept="u2itq" id="4OC0P8pbFxP" role="3uHU7B">
+              <node concept="u2itq" id="4OC0P8pbFxb" role="3uHU7B">
+                <node concept="u2itq" id="4OC0P8pbFw_" role="3uHU7B">
+                  <node concept="u2itq" id="4OC0P8pbFvj" role="3uHU7B">
+                    <node concept="u2itq" id="6zJ2AogebLq" role="3uHU7B">
+                      <node concept="u2itq" id="6zJ2AogebL2" role="3uHU7B">
+                        <node concept="u2itq" id="41lNXNuelrt" role="3uHU7B">
+                          <node concept="u2itq" id="41lNXNtwYKl" role="3uHU7B">
+                            <node concept="u2itq" id="2UqJsb6fjc0" role="3uHU7B">
+                              <node concept="u2itw" id="2UqJsb6fjbU" role="3uHU7B">
+                                <ref role="u2itx" node="7nDaBAKyLlM" resolve="Base" />
+                              </node>
+                              <node concept="u2itw" id="41lNXNtwYKf" role="3uHU7w">
+                                <ref role="u2itx" node="41lNXNtklyF" resolve="GUI" />
+                              </node>
+                            </node>
+                            <node concept="u2itw" id="41lNXNtwYKx" role="3uHU7w">
+                              <ref role="u2itx" node="41lNXNtvGFg" resolve="AdminPanel" />
+                            </node>
+                          </node>
+                          <node concept="u2itw" id="41lNXNuelrL" role="3uHU7w">
+                            <ref role="u2itx" node="1WBg84Szxj2" resolve="SnapshotHandling" />
+                          </node>
+                        </node>
+                        <node concept="u2itw" id="6zJ2AogebLK" role="3uHU7w">
+                          <ref role="u2itx" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+                        </node>
+                      </node>
+                      <node concept="u2itw" id="6zJ2AogebLm" role="3uHU7w">
+                        <ref role="u2itx" node="2Ww9bxrCfpn" resolve="IndexHandling" />
+                      </node>
+                    </node>
+                    <node concept="u2itw" id="4OC0P8pbFvJ" role="3uHU7w">
+                      <ref role="u2itx" node="6zJ2AogcTHV" resolve="GetSnapshot" />
+                    </node>
                   </node>
-                  <node concept="u2itw" id="41lNXNtwYKf" role="3uHU7w">
-                    <ref role="u2itx" node="41lNXNtklyF" resolve="GUI" />
+                  <node concept="u2itw" id="4OC0P8pbFx5" role="3uHU7w">
+                    <ref role="u2itx" node="4OC0P8pbCJJ" resolve="CreateIndex" />
                   </node>
                 </node>
-                <node concept="u2itw" id="41lNXNtwYKx" role="3uHU7w">
-                  <ref role="u2itx" node="41lNXNtvGFg" resolve="AdminPanel" />
+                <node concept="u2itw" id="4OC0P8pbFxJ" role="3uHU7w">
+                  <ref role="u2itx" node="5w4KjKVMTVL" resolve="Documents" />
                 </node>
               </node>
-              <node concept="u2itw" id="41lNXNuelrL" role="3uHU7w">
-                <ref role="u2itx" node="1WBg84Szxj2" resolve="SnapshotHandling" />
+              <node concept="u2itw" id="4OC0P8pbFyt" role="3uHU7w">
+                <ref role="u2itx" node="5w4KjKVMUlv" resolve="DocumentIndex" />
               </node>
             </node>
-            <node concept="u2itw" id="6zJ2AogebLK" role="3uHU7w">
-              <ref role="u2itx" node="6zJ2AogcUYP" resolve="ServerCommunication" />
+            <node concept="u2itw" id="4OC0P8pbFzf" role="3uHU7w">
+              <ref role="u2itx" node="5w4KjKVMUJe" resolve="DocumentSearch" />
             </node>
           </node>
         </node>
